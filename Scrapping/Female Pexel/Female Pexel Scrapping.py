@@ -17,7 +17,7 @@ for fashion in driver.find_elements_by_class_name("hide-favorite-badge"):
                 if chunk:
                     f.write(chunk)
         i = i+1
-    if(i >= 5):
+    if(i >= 2):
         break;
 
 driver.quit()
