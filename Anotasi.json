@@ -1,6 +1,6 @@
 [
   {
-    "image": "/data/upload/8df8a9-Female_16.jpg",
+    "image": "/data/upload/Female_16.jpg",
     "id": 8,
     "Clothes": "Suit",
     "Accecories": "Belt",
@@ -8,7 +8,7 @@
     "Color": "Red"
   },
   {
-    "image": "/data/upload/13b982-Female_26.jpg",
+    "image": "/data/upload/Female_26.jpg",
     "id": 16,
     "Type": "Female",
     "Clothes": "Dress",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "image": "/data/upload/65f9c0-Female_29.jpg",
+    "image": "/data/upload/Female_29.jpg",
     "id": 18,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -41,7 +41,7 @@
     }
   },
   {
-    "image": "/data/upload/43a732-Female_18.jpg",
+    "image": "/data/upload/Female_18.jpg",
     "id": 10,
     "Type": "Female",
     "Clothes": "T-Shirt",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "image": "/data/upload/06b179-Female_4.jpg",
+    "image": "/data/upload/Female_4.jpg",
     "id": 3,
     "Type": "Female",
     "Clothes": {
@@ -74,7 +74,7 @@
     }
   },
   {
-    "image": "/data/upload/af5d53-Female_31.jpg",
+    "image": "/data/upload/Female_31.jpg",
     "id": 19,
     "Type": "Female",
     "Clothes": {
@@ -88,7 +88,7 @@
     "Color": "Red"
   },
   {
-    "image": "/data/upload/a0e0d3-Female_6.jpg",
+    "image": "/data/upload/Female_6.jpg",
     "id": 4,
     "Clothes": {
       "choices": [
@@ -112,7 +112,7 @@
     }
   },
   {
-    "image": "/data/upload/9ee49e-Female_25.jpg",
+    "image": "/data/upload/Female_25.jpg",
     "id": 15,
     "Color": {
       "choices": [
@@ -131,7 +131,7 @@
     }
   },
   {
-    "image": "/data/upload/4575f6-Female_27.jpg",
+    "image": "/data/upload/Female_27.jpg",
     "id": 17,
     "Pants": "Kulot",
     "Clothes": "T-Shirt",
@@ -152,7 +152,7 @@
     }
   },
   {
-    "image": "/data/upload/f6a75d-Female_17.jpg",
+    "image": "/data/upload/Female_17.jpg",
     "id": 9,
     "Type": "Female",
     "Clothes": "T-Shirt",
@@ -172,7 +172,7 @@
     }
   },
   {
-    "image": "/data/upload/d08334-Female_11.jpg",
+    "image": "/data/upload/Female_11.jpg",
     "id": 6,
     "Type": "Female",
     "Clothes": "Dress",
@@ -185,7 +185,7 @@
     }
   },
   {
-    "image": "/data/upload/756967-Female_19.jpg",
+    "image": "/data/upload/Female_19.jpg",
     "id": 11,
     "Type": "Female",
     "Clothes": "Dress",
@@ -199,7 +199,7 @@
     }
   },
   {
-    "image": "/data/upload/9371a5-Female_1.jpg",
+    "image": "/data/upload/Female_1.jpg",
     "id": 0,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -213,7 +213,7 @@
     }
   },
   {
-    "image": "/data/upload/41e99a-Female_2.jpg",
+    "image": "/data/upload/Female_2.jpg",
     "id": 1,
     "Type": "Female",
     "Clothes": {
@@ -234,7 +234,7 @@
     }
   },
   {
-    "image": "/data/upload/5cdab9-Female_12.jpg",
+    "image": "/data/upload/Female_12.jpg",
     "id": 7,
     "Clothes": "Shirt",
     "Type": "Female",
@@ -242,7 +242,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/26afbd-Female_22.jpg",
+    "image": "/data/upload/Female_22.jpg",
     "id": 12,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -256,7 +256,7 @@
     }
   },
   {
-    "image": "/data/upload/0cdac1-Female_3.jpg",
+    "image": "/data/upload/Female_3.jpg",
     "id": 2,
     "Type": "Female",
     "Clothes": "Sweater",
@@ -264,7 +264,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/7e27b2-Female_23.jpg",
+    "image": "/data/upload/Female_23.jpg",
     "id": 13,
     "Type": "Female",
     "Clothes": "Dress",
@@ -273,7 +273,7 @@
     "Pants": "Skirt"
   },
   {
-    "image": "/data/upload/d9eff2-Female_24.jpg",
+    "image": "/data/upload/Female_24.jpg",
     "id": 14,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -286,7 +286,7 @@
     }
   },
   {
-    "image": "/data/upload/124052-Female_7.jpg",
+    "image": "/data/upload/Female_7.jpg",
     "id": 5,
     "Type": "Female",
     "Clothes": {
@@ -619,7 +619,7 @@
     }
   },
   {
-    "image": "/data/upload/d4eedd-Kids_45.jpg",
+    "image": "/data/upload/Kids_45.jpg",
     "id": 21,
     "Type": "Kids",
     "Clothes": "Sweater",
@@ -634,7 +634,7 @@
     }
   },
   {
-    "image": "/data/upload/0386be-pexels-photo-3679044.jpeg",
+    "image": "/data/upload/pexels-photo-3679044.jpeg",
     "id": 27,
     "Type": "Female",
     "Clothes": "T-Shirt",
@@ -649,7 +649,7 @@
     }
   },
   {
-    "image": "/data/upload/86c7be-Female_50.jpg",
+    "image": "/data/upload/Female_50.jpg",
     "id": 10,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -657,7 +657,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/d3ae54-Kids_49.jpg",
+    "image": "/data/upload/Kids_49.jpg",
     "id": 23,
     "Type": {
       "choices": [
@@ -682,7 +682,7 @@
     }
   },
   {
-    "image": "/data/upload/592746-Female_32.jpg",
+    "image": "/data/upload/Female_32.jpg",
     "id": 3,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -694,7 +694,7 @@
     }
   },
   {
-    "image": "/data/upload/d0fb10-Female_51.jpg",
+    "image": "/data/upload/Female_51.jpg",
     "id": 19,
     "Clothes": "T-Shirt",
     "Type": "Female",
@@ -708,14 +708,14 @@
     }
   },
   {
-    "image": "/data/upload/94f955-Female_33.jpg",
+    "image": "/data/upload/Female_33.jpg",
     "id": 4,
     "Type": "Female",
     "Clothes": "Dress",
     "Color": "White"
   },
   {
-    "image": "/data/upload/dff94a-Kids_47.jpg",
+    "image": "/data/upload/Kids_47.jpg",
     "id": 22,
     "Type": "Kids",
     "Clothes": "Dress",
@@ -723,7 +723,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/ebff01-Female_48.jpg",
+    "image": "/data/upload/Female_48.jpg",
     "id": 9,
     "Type": "Female",
     "Clothes": "Dress",
@@ -738,7 +738,7 @@
     }
   },
   {
-    "image": "/data/upload/0018db-Female_43.jpg",
+    "image": "/data/upload/Female_43.jpg",
     "id": 6,
     "Type": "Female",
     "Clothes": "Hoodie",
@@ -756,7 +756,7 @@
     }
   },
   {
-    "image": "/data/upload/03c00e-Female_8.jpg",
+    "image": "/data/upload/Female_8.jpg",
     "id": 0,
     "Type": "Female",
     "Clothes": "Dress",
@@ -770,7 +770,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/2e7a92-Female_20.jpg",
+    "image": "/data/upload/Female_20.jpg",
     "id": 1,
     "Type": "Female",
     "Clothes": "Jacket",
@@ -778,7 +778,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/7864a8-Female_44.jpg",
+    "image": "/data/upload/Female_44.jpg",
     "id": 7,
     "Type": "Female",
     "Clothes": "Dress",
@@ -786,7 +786,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/edc1aa-Kids_50.jpg",
+    "image": "/data/upload/Kids_50.jpg",
     "id": 24,
     "Type": "Kids",
     "Clothes": {
@@ -806,7 +806,7 @@
     }
   },
   {
-    "image": "/data/upload/4296c8-Female_52.jpg",
+    "image": "/data/upload/Female_52.jpg",
     "id": 20,
     "Type": "Female",
     "Clothes": "Dress",
@@ -814,7 +814,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/c697af-Female_21.jpg",
+    "image": "/data/upload/Female_21.jpg",
     "id": 2,
     "Type": "Female",
     "Clothes": "T-Shirt",
@@ -824,7 +824,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/12590e-Female_40.jpg",
+    "image": "/data/upload/Female_40.jpg",
     "id": 5,
     "Type": "Female",
     "Clothes": "Hoodie",
@@ -837,7 +837,7 @@
     }
   },
   {
-    "image": "/data/upload/cf74c4-pexels-photo-975008.jpeg",
+    "image": "/data/upload/pexels-photo-975008.jpeg",
     "id": 26,
     "Type": "Female",
     "Clothes": "Shirt",
@@ -852,14 +852,14 @@
     }
   },
   {
-    "image": "/data/upload/e4b54d-Kids_51.jpg",
+    "image": "/data/upload/Kids_51.jpg",
     "id": 25,
     "Type": "Kids",
     "Clothes": "Dress",
     "Color": "Red"
   },
   {
-    "image": "/data/upload/9abea8-pexels-photo-242829.jpeg",
+    "image": "/data/upload/pexels-photo-242829.jpeg",
     "id": 8,
     "Type": "Male",
     "Clothes": {
@@ -879,7 +879,7 @@
     }
   },
   {
-    "image": "/data/upload/ad446e-pexels-photo-3662357.jpeg",
+    "image": "/data/upload/pexels-photo-3662357.jpeg",
     "id": 16,
     "Type": "Male",
     "Clothes": "T-Shirt",
@@ -894,7 +894,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/d970b4-pexels-photo-8106203.jpeg",
+    "image": "/data/upload/pexels-photo-8106203.jpeg",
     "id": 18,
     "Type": "Male",
     "Clothes": {
@@ -919,7 +919,7 @@
     }
   },
   {
-    "image": "/data/upload/76627d-pexels-photo-775358.jpeg",
+    "image": "/data/upload/pexels-photo-775358.jpeg",
     "id": 10,
     "Type": "Male",
     "Clothes": {
@@ -938,7 +938,7 @@
     }
   },
   {
-    "image": "/data/upload/dbddb3-Male_50.jpg",
+    "image": "/data/upload/Male_50.jpg",
     "id": 3,
     "Type": "Male",
     "Clothes": {
@@ -959,7 +959,7 @@
     }
   },
   {
-    "image": "/data/upload/48f6f0-pexels-photo-8107163.jpeg",
+    "image": "/data/upload/pexels-photo-8107163.jpeg",
     "id": 19,
     "Type": "Male",
     "Clothes": {
@@ -979,7 +979,7 @@
     }
   },
   {
-    "image": "/data/upload/849e29-Male_51.jpg",
+    "image": "/data/upload/Male_51.jpg",
     "id": 4,
     "Type": "Male",
     "Clothes": "Hoodie",
@@ -992,7 +992,7 @@
     "Color": "Green"
   },
   {
-    "image": "/data/upload/43dd62-pexels-photo-3622614.jpeg",
+    "image": "/data/upload/pexels-photo-3622614.jpeg",
     "id": 15,
     "Type": "Male",
     "Clothes": "Sweater",
@@ -1012,7 +1012,7 @@
     }
   },
   {
-    "image": "/data/upload/4f0289-pexels-photo-3705262.jpeg",
+    "image": "/data/upload/pexels-photo-3705262.jpeg",
     "id": 17,
     "Type": "Male",
     "Clothes": {
@@ -1032,7 +1032,7 @@
     }
   },
   {
-    "image": "/data/upload/d722e9-pexels-photo-532220.jpeg",
+    "image": "/data/upload/pexels-photo-532220.jpeg",
     "id": 9,
     "Type": "Male",
     "Clothes": {
@@ -1050,7 +1050,7 @@
     }
   },
   {
-    "image": "/data/upload/84e51c-male.jpg",
+    "image": "/data/upload/male.jpg",
     "id": 6,
     "Type": "Male",
     "Clothes": "Hoodie",
@@ -1069,7 +1069,7 @@
     }
   },
   {
-    "image": "/data/upload/d06893-pexels-photo-878358.jpeg",
+    "image": "/data/upload/pexels-photo-878358.jpeg",
     "id": 11,
     "Type": "Male",
     "Clothes": "Sweater",
@@ -1085,7 +1085,7 @@
     }
   },
   {
-    "image": "/data/upload/d6fa2f-download.jfif",
+    "image": "/data/upload/download.jfif",
     "id": 0,
     "Type": "Male",
     "Pants": "Jeans",
@@ -1101,7 +1101,7 @@
     }
   },
   {
-    "image": "/data/upload/c77199-fashion-men-s-individuality-black-and-white-157675.jpeg",
+    "image": "/data/upload/fashion-men-s-individuality-black-and-white-157675.jpeg",
     "id": 1,
     "Type": "Male",
     "Clothes": {
@@ -1115,7 +1115,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/338b0b-malee.jpg",
+    "image": "/data/upload/malee.jpg",
     "id": 7,
     "Clothes": {
       "choices": [
@@ -1133,7 +1133,7 @@
     }
   },
   {
-    "image": "/data/upload/96f193-pexels-photo-1018911.jpeg",
+    "image": "/data/upload/pexels-photo-1018911.jpeg",
     "id": 12,
     "Type": "Male",
     "Clothes": "T-Shirt",
@@ -1153,7 +1153,7 @@
     }
   },
   {
-    "image": "/data/upload/de0d4c-Male_47.jpg",
+    "image": "/data/upload/Male_47.jpg",
     "id": 2,
     "Type": "Male",
     "Clothes": "Sweater",
@@ -1167,7 +1167,7 @@
     }
   },
   {
-    "image": "/data/upload/be6b63-pexels-photo-1192601.jpeg",
+    "image": "/data/upload/pexels-photo-1192601.jpeg",
     "id": 13,
     "Type": "Male",
     "Clothes": {
@@ -1185,7 +1185,7 @@
     }
   },
   {
-    "image": "/data/upload/269378-pexels-photo-3317133.jpeg",
+    "image": "/data/upload/pexels-photo-3317133.jpeg",
     "id": 14,
     "Type": "Male",
     "Clothes": {
@@ -1205,7 +1205,7 @@
     }
   },
   {
-    "image": "/data/upload/14f757-Male_57.jpg",
+    "image": "/data/upload/Male_57.jpg",
     "id": 5,
     "Type": "Male",
     "Clothes": "Tuxedo",
@@ -1224,7 +1224,7 @@
     }
   },
   {
-    "image": "/data/upload/10bac2-Male_7.jpg",
+    "image": "/data/upload/Male_7.jpg",
     "id": 8,
     "Type": "Male",
     "Clothes": {
@@ -1238,7 +1238,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/97d279-Male_46.jpg",
+    "image": "/data/upload/Male_46.jpg",
     "id": 16,
     "Clothes": "Tuxedo",
     "Accecories": "Watch",
@@ -1251,7 +1251,7 @@
     }
   },
   {
-    "image": "/data/upload/69eb83-pexels-photo-3152225.jpeg",
+    "image": "/data/upload/pexels-photo-3152225.jpeg",
     "id": 18,
     "Clothes": {
       "choices": [
@@ -1271,7 +1271,7 @@
     }
   },
   {
-    "image": "/data/upload/bb70a2-Male_31.jpg",
+    "image": "/data/upload/Male_31.jpg",
     "id": 10,
     "Clothes": {
       "choices": [
@@ -1285,7 +1285,7 @@
     "Type": "Male"
   },
   {
-    "image": "/data/upload/ea7d02-Kids_58.jpg",
+    "image": "/data/upload/Kids_58.jpg",
     "id": 3,
     "Type": {
       "choices": [
@@ -1312,7 +1312,7 @@
     }
   },
   {
-    "image": "/data/upload/1f9214-pexels-photo-6626903.jpeg",
+    "image": "/data/upload/pexels-photo-6626903.jpeg",
     "id": 19,
     "Type": "Male",
     "Clothes": "Sweater",
@@ -1326,21 +1326,21 @@
     }
   },
   {
-    "image": "/data/upload/943ddf-Kids_59.jpg",
+    "image": "/data/upload/Kids_59.jpg",
     "id": 4,
     "Type": "Kids",
     "Clothes": "Dress",
     "Color": "White"
   },
   {
-    "image": "/data/upload/c7cb0d-Male_39.jpg",
+    "image": "/data/upload/Male_39.jpg",
     "id": 15,
     "Type": "Male",
     "Clothes": "Sweater",
     "Color": "Black"
   },
   {
-    "image": "/data/upload/853794-Male_48.jpg",
+    "image": "/data/upload/Male_48.jpg",
     "id": 17,
     "Clothes": {
       "choices": [
@@ -1360,7 +1360,7 @@
     }
   },
   {
-    "image": "/data/upload/e11100-Male_28.jpg",
+    "image": "/data/upload/Male_28.jpg",
     "id": 9,
     "Type": "Male",
     "Clothes": "Shirt",
@@ -1375,7 +1375,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/879427-Male_3.jpg",
+    "image": "/data/upload/Male_3.jpg",
     "id": 6,
     "Clothes": "Shirt",
     "Type": "Male",
@@ -1383,7 +1383,7 @@
     "Color": "White"
   },
   {
-    "image": "/data/upload/a3fa80-Male_33.jpg",
+    "image": "/data/upload/Male_33.jpg",
     "id": 11,
     "Type": "Male",
     "Clothes": {
@@ -1410,7 +1410,7 @@
     }
   },
   {
-    "image": "/data/upload/d13760-Kids_52.jpg",
+    "image": "/data/upload/Kids_52.jpg",
     "id": 0,
     "Type": "Kids",
     "Clothes": "Dress",
@@ -1418,7 +1418,7 @@
     "Color": "Blue"
   },
   {
-    "image": "/data/upload/921842-Kids_53.jpg",
+    "image": "/data/upload/Kids_53.jpg",
     "id": 1,
     "Type": "Kids",
     "Clothes": "Shirt",
@@ -1432,7 +1432,7 @@
     }
   },
   {
-    "image": "/data/upload/ecaaa3-Male_5.jpg",
+    "image": "/data/upload/Male_5.jpg",
     "id": 7,
     "Type": "Male",
     "Clothes": "T-Shirt",
@@ -1442,7 +1442,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/24678e-Male_35.jpg",
+    "image": "/data/upload/Male_35.jpg",
     "id": 12,
     "Type": "Male",
     "Clothes": "Tuxedo",
@@ -1450,7 +1450,7 @@
     "Color": "Black"
   },
   {
-    "image": "/data/upload/6d19aa-Kids_56.jpg",
+    "image": "/data/upload/Kids_56.jpg",
     "id": 2,
     "Type": "Female",
     "Clothes": "Sweater",
@@ -1458,7 +1458,7 @@
     "Color": "Blue"
   },
   {
-    "image": "/data/upload/9a0281-Male_36.jpg",
+    "image": "/data/upload/Male_36.jpg",
     "id": 13,
     "Type": "Male",
     "Clothes": {
@@ -1477,7 +1477,7 @@
     }
   },
   {
-    "image": "/data/upload/eb4f95-Male_38.jpg",
+    "image": "/data/upload/Male_38.jpg",
     "id": 14,
     "Type": "Male",
     "Clothes": "Tuxedo",
@@ -1485,7 +1485,7 @@
     "Color": "Red"
   },
   {
-    "image": "/data/upload/90675d-Male_1.jpg",
+    "image": "/data/upload/Male_1.jpg",
     "id": 5,
     "Clothes": "Hoodie",
     "Type": "Male",
