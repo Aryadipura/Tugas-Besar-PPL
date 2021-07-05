@@ -1,6 +1,6 @@
   // Method for json for filttering
   $(document).ready(function(){    
-    $.getJSON("../assets/json/Anotasi.json", function(data){
+    $.getJSON("https://aryadipura.github.io/Tugas-Besar-PPL/assets/json/Anotasi.json", function(data){
           var fashion_data = '';
           var id = 1;
           var count = 0;
@@ -28,7 +28,7 @@
 
           $('#fashion_image').append(fashion_data);            
       });      
-      $.getJSON("../assets/json/Anotasi.json", function(data){
+      $.getJSON("https://aryadipura.github.io/Tugas-Besar-PPL/assets/json/Anotasi.json", function(data){
           var i = 1;
           $.each(data, function(key,value){
               // Add to class each label for filtering
