@@ -601,7 +601,7 @@
     "annotation_id": 12
   },
   {
-    "image": "/data/upload/0ff48a-Female_47.jpg",
+    "image": "/data/upload/Female_47.jpg",
     "id": 8,
     "Type": "Female",
     "Clothes": {
@@ -629,7 +629,8 @@
     "Color": {
       "choices": [
         "White",
-        "Blue"
+        "Blue",
+        "Red"
       ]
     }
   },
