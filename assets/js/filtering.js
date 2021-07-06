@@ -5,7 +5,7 @@
           var id = 1;
           var count = 0;
           const column = 4;
-          const maxColumnPerRow = 5;            
+          const maxColumnPerRow = 25;            
           fashion_data += "<div class="+ 'column' +">";
           $.each(data, function(key,value){
               // fashion_data += '<tr>';                
