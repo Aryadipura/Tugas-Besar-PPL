@@ -60,26 +60,8 @@
         <ul>
           <li class="active"><a href="#home">Home</a></li>
           <li><a href="#trend">Trend</a></li>
-          <!-- <li><a href="#services">Services</a></li> -->
           <li><a href="#gambar">Gambar</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
           <li><a href="#contact">Contact</a></li>
 
         </ul>
@@ -108,7 +90,7 @@
           <div class="icon-box">
             <!-- <i class="ri-bar-chart-box-line"></i> -->
             <img src="https://ecs7.tokopedia.net/img/attachment/2020/3/31/77305583/77305583_8e290988-db62-4739-bad6-782d7265ba49.png" width="100%">
-            <h3><a href="#">Pakaian Wanita</a></h3>
+            <h3><a href="#gambar" onclick="filterSelection('Female')">Pakaian Wanita</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-6">
@@ -116,14 +98,14 @@
             <!-- <i class="ri-store-line"></i> -->
             <!-- <i class="fas fa-tshirt"></i> -->
             <img src="https://ecs7.tokopedia.net/img/attachment/2020/3/31/77305583/77305583_6d520845-fe2a-4643-b4ec-62a14b9f1185.png" width="100%">
-            <h3><a href="#">Pakaian Pria</a></h3>
+            <h3><a href="#gambar" onclick="filterSelection('Male')">Pakaian Pria</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-6 mt-4 mt-md-0">
           <div class="icon-box">
             <!-- <i class="ri-calendar-todo-line"></i> -->
             <img src="https://ecs7.tokopedia.net/img/attachment/2020/3/31/77305583/77305583_8338b1e4-3e69-4049-8522-5a7a58441251.png" width="100%">
-            <h3><a href="#">Pakaian Anak-anak</a></h3>
+            <h3><a href="#gambar" onclick="filterSelection('Kids')">Pakaian Anak-anak</a></h3>
           </div>
         </div>
         <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
@@ -328,117 +310,89 @@
           <p>Anotasi Gambar</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100" id="myBtnContainer">
+        <div class="row">
+          <div class="col-md-2 d-block d-sm-none d-md-none">
+            <!-- modal -->
+            <button type="button" class="btn btn-primary text-center" data-toggle="modal" data-target=".filter-modal">Filter</button>
+          </div>
+          <div class="col-md-2 d-none d-sm-none d-md-block">
+            <a href="#!" id="showallimg" class="filterActive"  onload="filterSelection('all')" onclick="filterSelection('all')"> Show all</a>
+            <p>Type</p>
+            <ul>
+              <li><a href="#!" onclick="filterSelection('Kids')">Kids</a></li>
+              <li><a href="#!" onclick="filterSelection('Female')">Female</a></li>
+              <li><a href="#!" onclick="filterSelection('Male')">Male</a></li>
+            </ul>
+            <p>Clothes</p>
+            <ul>
+              <li><a href="#!" onclick="filterSelection('Shirt')">Shirt</a></li>
+              <li><a href="#!" onclick="filterSelection('Shirt')">Shirt</a></li>
+              <li><a href="#!" onclick="filterSelection('Jacket')">Jacket</a></li>
+              <li><a href="#!" onclick="filterSelection('Sweater')">Sweater</a></li>
+              <li><a href="#!" onclick="filterSelection('Hoodie')">Hoodie</a></li>
+              <li><a href="#!" onclick="filterSelection('Cardigan')">Cardigan</a></li>
+              <li><a href="#!" onclick="filterSelection('Dress')">Dress</a></li>
+              <li><a href="#!" onclick="filterSelection('Suit')">Suit</a></li>
+              <li><a href="#!" onclick="filterSelection('Tuxedo')">Tuxedo</a></li>
+              <li><a href="#!" onclick="filterSelection('Vest')">Vest</a></li>
+              <li><a href="#!" onclick="filterSelection('Robe')">Robe</a></li>
+              <li><a href="#!" onclick="filterSelection('Overall')">Overall</a></li>
+            </ul>
+            <p>Pants</p>
+            <ul>
+              <li><a href="#gambar" onclick="filterSelection('Jeans')">Jeans</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Short')">Short</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Jogger')">Jogger</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Training')">Training</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Skirt')">Skirt</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Kulot')">Kulot</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Corduroy')">Corduroy</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Cargo')">Cargo</a></li>
+            </ul>
+            <p>Accecories</p>
+            <ul>
+              <li><a href="#gambar" onclick="filterSelection('Cap')">Cap</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Hat')">Hat</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Veil')">Veil</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Beanie')">Beanie</a></li>
+              <li><a href="#gambar" onclick="filterSelection('EyeGlasses')">EyeGlasses</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Necklace')">Necklace</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Scarf')">Scarf</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Belt')">Belt</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Wrist')">Wrist</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Watch')">Watch</a></li>
+            </ul>
+            <p>Footwear</p>
+            <ul>
+              <li><a href="#gambar" onclick="filterSelection('Sneaker')">Sneaker</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Leather')">Leather</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Slipper')">Slipper</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Heels')">Heels</a></li>              
+            </ul>
+            <p>Color</p>
+            <ul>
+              <li><a href="#gambar" onclick="filterSelection('Black')">Black</a></li>
+              <li><a href="#gambar" onclick="filterSelection('White')">White</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Grey')">Grey</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Brown')">Brown</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Blue')">Blue</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Red')">Red</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Green')">Green</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Yellow')">Yellow</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Orange')">Orange</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Purple')">Purple</a></li>
+              <li><a href="#gambar" onclick="filterSelection('Pink')">Pink</a></li>              
+            </ul>
+          </div>
 
-          <!-- Button Show All -->
-            <div class="col-lg-12 d-flex justify-content-center">
-              <button class="btn filterActive" onload="filterSelection('all')" onclick="filterSelection('all')"> Show all</button>            
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-                <h4>Type</h4>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">            
-              <!-- Type -->            
-              <button class="btn" onclick="filterSelection('Kids')"> Kids</button>
-              <button class="btn" onclick="filterSelection('Female')"> Female</button>
-              <button class="btn" onclick="filterSelection('Male')"> Male</button>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-                <h4>Clothes</h4>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <!-- Clothes -->
-              <button class="btn" onclick="filterSelection('T-Shirt')"> T-Shirt</button>
-              <button class="btn" onclick="filterSelection('Shirt')"> Shirt</button>
-              <button class="btn" onclick="filterSelection('Jacket')"> Jacket</button>
-              <button class="btn" onclick="filterSelection('Sweater')"> Sweater</button>
-              <button class="btn" onclick="filterSelection('Hoodie')"> Hoodie</button>
-              <button class="btn" onclick="filterSelection('Cardigan')"> Cardigan</button>
-              <button class="btn" onclick="filterSelection('Dress')"> Dress</button>
-              <button class="btn" onclick="filterSelection('Suit')"> Suit</button>
-              <button class="btn" onclick="filterSelection('Tuxedo')"> Tuxedo</button>
-              <button class="btn" onclick="filterSelection('Vest')"> Vest</button>
-              <button class="btn" onclick="filterSelection('Robe')"> Robe</button>
-              <button class="btn" onclick="filterSelection('Overall')"> Overall</button>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <h4>Pants</h4>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <!-- Pants -->
-              <button class="btn" onclick="filterSelection('Jeans')"> Jeans</button>
-              <button class="btn" onclick="filterSelection('Short')"> Short</button>
-              <button class="btn" onclick="filterSelection('Jogger')"> Jogger</button>
-              <button class="btn" onclick="filterSelection('Training')"> Training</button>
-              <button class="btn" onclick="filterSelection('Skirt')"> Skirt</button>
-              <button class="btn" onclick="filterSelection('Kulot')"> Kulot</button>
-              <button class="btn" onclick="filterSelection('Corduroy')"> Corduroy</button>
-              <button class="btn" onclick="filterSelection('Cargo')"> Cargo</button>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <h4>Accecories</h4>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <!-- Accesories  -->
-              <button class="btn" onclick="filterSelection('Cap')"> Cap</button>
-              <button class="btn" onclick="filterSelection('Hat')"> Hat</button>
-              <button class="btn" onclick="filterSelection('Veil')"> Veil</button>
-              <button class="btn" onclick="filterSelection('Beanie')"> Beanie</button>
-              <button class="btn" onclick="filterSelection('EyeGlasses')"> Eye Glasses</button>
-              <button class="btn" onclick="filterSelection('Necklace')"> Necklace</button>
-              <button class="btn" onclick="filterSelection('Scarf')"> Scarf</button>
-              <button class="btn" onclick="filterSelection('Belt')"> Belt</button>
-              <button class="btn" onclick="filterSelection('Wrist')"> Wrist</button>
-              <button class="btn" onclick="filterSelection('Watch')"> Watch</button>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <h4>Footwear</h4>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <!-- Footwear   -->
-              <button class="btn" onclick="filterSelection('Sneaker')"> Sneaker</button>
-              <button class="btn" onclick="filterSelection('Leather')"> Leather</button>
-              <button class="btn" onclick="filterSelection('Slipper')"> Slipper</button>
-              <button class="btn" onclick="filterSelection('Heels')"> Heels</button>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <h4>Color</h4>
-            </div>
-
-            <div class="col-lg-12 d-flex justify-content-center">
-              <!-- Color -->
-              <button class="btn" onclick="filterSelection('Black')"> Black</button>
-              <button class="btn" onclick="filterSelection('White')"> White</button> 
-              <button class="btn" onclick="filterSelection('Grey')"> Grey</button>
-              <button class="btn" onclick="filterSelection('Brown')"> Brown</button>
-              <button class="btn" onclick="filterSelection('Blue')"> Blue</button>
-              <button class="btn" onclick="filterSelection('Red')"> Red</button>
-              <button class="btn" onclick="filterSelection('Green')"> Green</button>
-              <button class="btn" onclick="filterSelection('Yellow')"> Yellow</button>
-              <button class="btn" onclick="filterSelection('Orange')"> Orange</button>
-              <button class="btn" onclick="filterSelection('Purple')"> Purple</button>
-              <button class="btn" onclick="filterSelection('Pink')"> Pink</button>
-            </div>
-          
-        </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-xl-10 portfolio-item filter-app">
+          <div class="col-md-10">
             <div class="row container" id="fashion_image">
 
             </div>
+          </div>
         </div>
+
+
 
           <!-- -----------------DEFAULT ELEMENT TEMPLATE------------------- -->
           <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -924,6 +878,106 @@
       }
   });
   </script>
+
+            <div class="modal fade filter-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="myLargeModalLabel">FILTER</h5>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+
+                      <!-- Button Show All -->
+                        <div class="col-lg-12">
+                          <button class="btn float-right"  data-dismiss="modal" onclick="filterSelection('all')"> Show all</button>            
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                            <h4>Type</h4>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">            
+                          <!-- Type -->            
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Kids')"> Kids</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Female')"> Female</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Male')"> Male</button>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                            <h4>Clothes</h4>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <!-- Clothes -->
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('T-Shirt')"> T-Shirt</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Shirt')"> Shirt</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Jacket')"> Jacket</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Sweater')"> Sweater</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Hoodie')"> Hoodie</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Cardigan')"> Cardigan</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Dress')"> Dress</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Suit')"> Suit</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Tuxedo')"> Tuxedo</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Vest')"> Vest</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Robe')"> Robe</button>
+                          <button class="btn"  data-dismiss="modal" onclick="filterSelection('Overall')"> Overall</button>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <h4>Pants</h4>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <!-- Pants -->
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Jeans')"> Jeans</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Short')"> Short</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Jogger')"> Jogger</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Training')"> Training</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Skirt')"> Skirt</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Kulot')"> Kulot</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Corduroy')"> Corduroy</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Cargo')"> Cargo</button>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <h4>Accecories</h4>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <!-- Accesories  -->
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Cap')"> Cap</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Hat')"> Hat</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Veil')"> Veil</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Beanie')"> Beanie</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('EyeGlasses')"> Eye Glasses</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Necklace')"> Necklace</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Scarf')"> Scarf</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Belt')"> Belt</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Wrist')"> Wrist</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Watch')"> Watch</button>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <h4>Footwear</h4>
+                        </div>
+
+                        <div class="col-lg-12 justify-content-center">
+                          <!-- Footwear   -->
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Sneaker')"> Sneaker</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Leather')"> Leather</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Slipper')"> Slipper</button>
+                          <button class="btn" data-dismiss="modal" onclick="filterSelection('Heels')"> Heels</button>
+                        </div>
+                      </div>
+                   </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 </body>
 </html>
 <script >
@@ -964,13 +1018,19 @@
   }
 
   // Add active class to the current control button (highlight it)
-  var btnContainer = document.getElementById("myBtnContainer");
-  var btns = btnContainer.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("filterActive");
-      current[0].className = current[0].className.replace(" filterActive", "");
-      this.className += " filterActive";
-  });
+  // var btnContainer = document.getElementById("myBtnContainer");
+  // var btns = btnContainer.getElementsByClassName("btn");
+  // for (var i = 0; i < btns.length; i++) {
+  // btns[i].addEventListener("click", function() {
+  //     var current = document.getElementsByClassName("filterActive");
+  //     current[0].className = current[0].className.replace(" filterActive", "");
+  //     this.className += " filterActive";
+  // });
+  // }
+
+</script>
+<script type="text/javascript">
+  window.onload = function(){
+    filterSelection('all');
   }
 </script>
